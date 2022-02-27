@@ -57,3 +57,8 @@ Delete task completed by task name
     [Documentation]    Delete task completed by task name
     [Arguments]    ${task_name}
     common.Click element when ready    xpath=//span[@class='mdl-list__item-primary-content' and text()='${task_name}']/../button[contains(@class,'delete')]
+
+Verify task completed not show task by task name
+    [Documentation]    Verify task completed not show task by task name
+    [Arguments]    ${task_name}
+    Wait Until Element Is Not Visible    xpath=//span[@class='mdl-list__item-primary-content' and text()='${task_name}']/../button[contains(@class,'delete')]

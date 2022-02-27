@@ -48,13 +48,14 @@ Add item to completed
 Delete task on completed
     [Documentation]    as a user, can delete task on completed page
     common.Open Website
-    home_page.Select tab bar menu                    Add Item
-    home_page.Input task in text field               Test-demo
+    home_page.Select tab bar menu                          Add Item
+    home_page.Input task in text field                     Test-demo
     home_page.Click button add task
-    home_page.Select tab bar menu                    To-Do Tasks
-    home_page.Verify todo task should be shown       Test-demo
-    home_page.Click check box by task name           Test-demo
-    home_page.Select tab bar menu                    Completed
-    home_page.Verify task completed by task name     Test-demo
-    home_page.Delete task completed by task name     Test-demo
+    home_page.Select tab bar menu                          To-Do Tasks
+    home_page.Verify todo task should be shown             Test-demo
+    home_page.Click check box by task name                 Test-demo
+    home_page.Select tab bar menu                          Completed
+    home_page.Verify task completed by task name           Test-demo
+    home_page.Delete task completed by task name           Test-demo
+    Verify task completed not show task by task name       Test-demo
     Close Browser
