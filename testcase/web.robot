@@ -57,5 +57,5 @@ Delete task on completed
     home_page.Select tab bar menu                          Completed
     home_page.Verify task completed by task name           Test-demo
     home_page.Delete task completed by task name           Test-demo
-    Verify task completed not show task by task name       Test-demo
+    home_page.Verify task completed not show task by task name       Test-demo
     Close Browser
