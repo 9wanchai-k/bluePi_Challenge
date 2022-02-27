@@ -1,6 +1,6 @@
 # Automate-Tester
 
-## 1. Please provide a test scenario for Facebook log-in feature on mobile application
+## 1. Please provide a test scenario
 ```sh
 https://docs.google.com/document/d/101xn5Ec8ndhfE7ssaDysG4WjNSkSBVl_BdX6kkhR7z4/edit?usp=sharing
  ```
